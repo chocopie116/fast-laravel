@@ -5,8 +5,10 @@
 	"license": "MIT",
 	"require": {
         "php": ">=5.4.0",
-		"laravel/framework": "4.1.*",
-         "phpunit/phpunit": "3.7.20"
+        "laravel/framework": "4.1.*",
+        "phpunit/phpunit": "3.7.20",
+        "anahkiasen/rocketeer": "1.2.0",
+        "piece/stagehand-testrunner": "v3.5.0"
 	},
 	"autoload": {
 		"classmap": [
