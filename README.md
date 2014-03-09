@@ -1,4 +1,6 @@
 fast-laravel
 ============
 
-change
+installation
+
+make setup
