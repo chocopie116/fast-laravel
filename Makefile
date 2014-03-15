@@ -8,7 +8,8 @@ setup:
 	$(WGET) http://rocketeer.autopergamene.eu/versions/rocketeer.phar
 install: setup
 	$(PHP) composer.phar install
-	$(PHP) rocketeer.phar ignite
 	$(CHMOD) -R 0777 app/storage
+setupdeploy:
+	$(PHP) rocketeer.phar ignite
 deploy:
 	$(PHP) rocketeer.phar deploy --verbose
